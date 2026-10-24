@@ -8,11 +8,6 @@ I added my own comments to the code to explain what each step does and why.
 
 ## Chapters
 
-| Chapter | Topic | Files |
-|---|---|---|
-| 2 | End-to-end ML project: predicting California house prices | [Notebook](chapter-02-housing/02_end_to_end_machine_learning_project.ipynb), [Exercises](chapter-02-housing/02_exercises.ipynb) |
-| 3 | Classification: MNIST digits, Titanic, spam filter | [Exercises](chapter-03-classification/03_exercises.ipynb) |
-
 ## What I learned in Chapter 2
 - Loading and exploring data with pandas
 - Making a stratified train/test split
@@ -38,6 +33,3 @@ I added my own comments to the code to explain what each step does and why.
 
 Note: some cells (grid search, KNN on MNIST) take several minutes to run.
 
-## Credit
-Based on the book and the official notebooks:
-https://github.com/ageron/handson-ml3 (Apache 2.0 license)
