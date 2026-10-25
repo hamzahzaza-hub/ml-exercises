@@ -25,6 +25,16 @@ I added my own comments to the code to explain what each step does and why.
 - Building a spam filter: turning emails into word-count vectors (lowercase, URLs, numbers, stemming)
 - Measuring classifiers with precision and recall, not just accuracy
 
+## What I learned in Chapter 4
+- How Linear Regression is trained: the Normal Equation vs. Gradient Descent
+- Batch, Stochastic, and Mini-batch Gradient Descent, and when to use each one
+- Why feature scaling matters for Gradient Descent
+- Spotting overfitting vs. underfitting with learning curves
+- Regularization: Ridge (ℓ₂), Lasso (ℓ₁), and Elastic Net
+- Early stopping: keep the best model and use "patience" instead of stopping at the first bad epoch
+- Logistic Regression and Softmax Regression for classification
+- Built Softmax Regression **from scratch with only NumPy** (Batch GD + ℓ₂ + early stopping) on the iris dataset: **96.7% test accuracy**
+
 ## How to run
 1. Install Python 3.10 or newer
 2. Install the libraries:
